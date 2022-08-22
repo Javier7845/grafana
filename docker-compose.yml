@@ -23,7 +23,7 @@ services:
         networks:
             - default
     phpmyadmin:
-        image: phpmyadmin/phpmyadmin
+        image: phpmyadmin/phpmyadmin:5.2.0
         ports:
             - "8000:80"
         environment:
