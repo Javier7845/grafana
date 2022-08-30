@@ -83,5 +83,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", run: "always", inline: <<-SHELL
     cd /vagrant
     docker-compose up -d
+    docker ps
   SHELL
 end
