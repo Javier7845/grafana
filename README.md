@@ -9,7 +9,8 @@ Este proyecto plantea automatizar los servicios de MySQL y Grafana utilizando co
 ```
 git clone https://github.com/Javier7845/grafana.git
 ```
-2. Dentro de la carpeta del repositorio descargado corremos el siguiente comando para levantar los servicios
+2. Descomprimimos el archivo y entramos a la carpeta.
+3. Dentro de la carpeta escribimos el siguiente comando para levantar los servicios
 ```
 docker-compose up -d
 ```
@@ -19,14 +20,17 @@ docker-compose up -d
 git clone https://github.com/Javier7845/grafana
 ```
 2. Descomprimimos el archivo y entramos a la carpeta.
-```
-cd /grafana-main
-```
-2. Desde la terminal escribimos el siguiente comando para levantar la maquina virtual.
+
+2. Dentro de la carpeta escribimos el siguiente comando para levantar la maquina virtual con los servicios
 ```
 vagrant up
 ```
-## Usage
+4. Luego escribimos
+```
+vagrant ssh
+```
+# Usage
+## Docker
 1. Asegurate de que los contenedores con los servicios esten corriendo
 ```
 docker container ls -a
@@ -34,6 +38,15 @@ docker container ls -a
 2. Ahora escribe en tu navegador.
 ```
 localhost:3000
+```
+## Vagrant
+1. Asegurate de que los contenedores con los servicios esten corriendo dentro de la maquina virtual.
+```
+docker container ls -a
+```
+2. Ahora escribe en tu navegador.
+```
+192.168.56.107:3000
 ```
 ## Authors of this project
 - Javier - [LinkedIn](https://www.linkedin.com/in/javec/)
