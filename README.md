@@ -30,10 +30,6 @@ cd /grafana-main
 ```
 vagrant up
 ```
-4. Luego escribimos:
-```
-vagrant ssh
-```
 # Usage
 ## Docker
 1. Asegurate de que los contenedores con los servicios esten corriendo:
@@ -46,6 +42,9 @@ localhost:3000
 ```
 ## Vagrant
 1. Asegurate de que los contenedores con los servicios esten corriendo dentro de la maquina virtual:
+```
+vagrant up
+```
 ```
 docker ps
 ```
