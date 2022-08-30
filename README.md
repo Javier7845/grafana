@@ -1,8 +1,13 @@
-# Rose Detection and Counting App
+# Grafana in Docker or Vagrant
 
-## Overview
-This project lays out an application for Android based on artificial intelligence capable of recognizing the number of roses in an image given by the user, from either the phone's camera or gallery.
-## Requirements
+## Docker
+Crea una carpeta dentro de /home
+```
+mkdir LabGrafana
+```
+
+Si vas a usar Docker entonces copia y pega el contenido en 
+## Vagrant
 - [Android Studio](https://developer.android.com/studio) version Artic Fox 2020.3.1 Patch 3 or greater (for cloning and editing the app)
 - Android 6.0 Marshmallow or greater (for installing and testing in an Android phone)
 ## Screenshots
