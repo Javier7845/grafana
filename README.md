@@ -12,7 +12,7 @@ git clone https://github.com/Javier7845/grafana.git
 ```
 2. Descomprime el archivo y entra a la carpeta:
 ```
-cd /grafana-main
+cd /grafana
 ```
 3. Dentro de la carpeta escribe el siguiente comando para levantar los servicios:
 ```
