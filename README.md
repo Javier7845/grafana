@@ -9,7 +9,7 @@ Este proyecto plantea automatizar los servicios de MySQL y Grafana utilizando co
 ```
 git clone https://github.com/Javier7845/grafana.git
 ```
-2. Descompre el archivo y entra a la carpeta:
+2. Descomprime el archivo y entra a la carpeta:
 ```
 cd /grafana-main
 ```
@@ -22,7 +22,7 @@ docker-compose up -d
 ```
 git clone https://github.com/Javier7845/grafana
 ```
-2. Descompre el archivo y entra a la carpeta:
+2. Descomprime el archivo y entra a la carpeta:
 ```
 cd /grafana-main
 ```
