@@ -1,0 +1,25 @@
+version: "3.1"
+services:
+    dbmysql:
+        image: mysql:8.0.17
+        ports: 
+            - "3306:3306"
+        environment:
+            MYSQL_DATABASE: farmers_market
+            MYSQL_ROOT_PASSWORD: root
+        volumes:
+            - ./database:/docker-entrypoint-initdb.d
+            - persistentdbmysql:/var/lib/mysql
+        networks:
+            - default
+    mygrafana:
+        image: grafana/grafana:9.1.0
+        ports:
+            - "3000:3000"
+        volumes:
+            - persistentmygrafana:/var/lib/grafana
+        networks:
+            - default
+volumes:
+    persistentdbmysql:
+    persistentmygrafana:
