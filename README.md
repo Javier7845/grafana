@@ -1,6 +1,6 @@
-# Automatizacion de Grafana y Mysql en Docker y Vagrant
+# Automatizacion de Grafana y MySQL en Docker y Vagrant
 ## Overview
-Este proyecto plantea automatizar los servicios de Mysql y Grafana utilizando como entorno de virtualizacion Docker y Vagrant. La base de datos a visualizar esta incluida en la carpeta "database"
+Este proyecto plantea automatizar los servicios de MySQL y Grafana utilizando como entorno de virtualizacion Docker y Vagrant. La base de datos a visualizar esta incluida en la carpeta "database".
 ## Requirements
 - Docker
 - Vagrant
