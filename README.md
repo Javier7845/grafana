@@ -7,7 +7,7 @@ Este proyecto plantea automatizar los servicios de MySQL y Grafana utilizando co
 ## Docker
 1. Clone or download this repository in the home directory.
 ```
-git clone https://github.com/Javier7845/grafana
+git clone https://github.com/Javier7845/grafana.git
 ```
 2. Dentro de la carpeta del repositorio descargado corremos el siguiente comando para levantar los servicios
 ```
