@@ -80,4 +80,7 @@ Vagrant.configure("2") do |config|
     echo "\n\n\n\n\n==== Services running ===="
     docker ps
   SHELL
+  config.vm.provision "shell", run: "always", inline: <<-SHELL
+    docker-compose up -d
+  SHELL
 end
