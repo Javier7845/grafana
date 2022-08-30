@@ -18,7 +18,11 @@ docker-compose up -d
 ```
 git clone https://github.com/Javier7845/grafana
 ```
-2. Dentro de la carpeta del repositorio descargado corremos el siguiente comando para levantar los servicios
+2. Descomprimimos el archivo y entramos a la carpeta.
+```
+cd /grafana-main
+```
+2. Desde la terminal escribimos el siguiente comando para levantar la maquina virtual.
 ```
 vagrant up
 ```
