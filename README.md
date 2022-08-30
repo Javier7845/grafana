@@ -32,5 +32,5 @@ Ahora escribe en tu namevagor.
 localhost:3000
 ```
 ## Authors of this project
-- Jefferson Chipantasig - jefferson.chipantasi@yachaytech.edu.ec - [LinkedIn](https://www.linkedin.com/in/javec/)
-- Jaime Astudillo - jaime.astudillo@yachaytech.edu.ec - [LinkedIn](https://www.linkedin.com/in/jaime-astudillo-664754228/)
+- Javier - [LinkedIn](https://www.linkedin.com/in/javec/)
+- Jaime - [LinkedIn](https://www.linkedin.com/in/jaime-astudillo-664754228/)
