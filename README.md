@@ -27,7 +27,7 @@ Asegurate de que los contenedores con los servicios esten corriendo
 ```
 docker container ls -a
 ```
-Ahora escribe en tu namevagor.
+Ahora escribe en tu navegador.
 ```
 localhost:3000
 ```
