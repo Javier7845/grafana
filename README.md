@@ -39,7 +39,7 @@ docker ps
 ```
 2. Ahora escribe en tu navegador:
 ```
-your_ip:3000
+localhost:3000
 ```
 ## Vagrant
 1. Asegurate de que los contenedores con los servicios esten corriendo dentro de la maquina virtual:
