@@ -5,7 +5,7 @@ Este proyecto plantea automatizar los servicios de MySQL y Grafana utilizando co
 - Docker
 - Vagrant
 ## Docker
-1. Clone or download this repository in the home directory:
+1. Clone or download this repository:
 ```
 git clone https://github.com/Javier7845/grafana.git
 ```
@@ -18,7 +18,7 @@ cd /grafana-main
 docker-compose up -d
 ```
 ## Vagrant
-1. Clone or download this repository in the home directory:
+1. Clone or download this repository:
 ```
 git clone https://github.com/Javier7845/grafana
 ```
