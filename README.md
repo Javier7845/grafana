@@ -4,6 +4,7 @@ Este proyecto plantea automatizar los servicios de MySQL y Grafana utilizando co
 ## Requirements
 - Docker
 - Vagrant
+- Docker-compose
 ## Docker
 1. Clone or download this repository:
 ```
@@ -51,6 +52,14 @@ docker ps
 2. Ahora escribe en tu navegador:
 ```
 192.168.56.107:3000
+```
+
+## Install docker-compose
+```
+sudo apt-get -y update
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get -y updated
+sudo apt-get install -y docker-compose
 ```
 ## Authors of this project
 - Javier - [LinkedIn](https://www.linkedin.com/in/javec/)
