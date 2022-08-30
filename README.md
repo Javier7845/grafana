@@ -23,11 +23,11 @@ git clone https://github.com/Javier7845/grafana
 vagrant up
 ```
 ## Usage
-Asegurate de que los contenedores con los servicios esten corriendo
+1. Asegurate de que los contenedores con los servicios esten corriendo
 ```
 docker container ls -a
 ```
-Ahora escribe en tu navegador.
+2. Ahora escribe en tu navegador.
 ```
 localhost:3000
 ```
