@@ -43,7 +43,7 @@ localhost:3000
 ## Vagrant
 1. Asegurate de que los contenedores con los servicios esten corriendo dentro de la maquina virtual:
 ```
-vagrant up
+vagrant ssh
 ```
 ```
 docker ps
