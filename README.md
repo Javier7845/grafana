@@ -36,7 +36,7 @@ vagrant ssh
 ## Docker
 1. Asegurate de que los contenedores con los servicios esten corriendo:
 ```
-docker container ls -a
+docker ps
 ```
 2. Ahora escribe en tu navegador:
 ```
@@ -45,7 +45,7 @@ localhost:3000
 ## Vagrant
 1. Asegurate de que los contenedores con los servicios esten corriendo dentro de la maquina virtual:
 ```
-docker container ls -a
+docker ps
 ```
 2. Ahora escribe en tu navegador:
 ```
