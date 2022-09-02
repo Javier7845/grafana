@@ -54,10 +54,10 @@ docker ps
 192.168.56.107:3000
 ```
 ## Credentials
-##Grafana credentials:
+## Grafana credentials:
 User: admin
-##Password: admin
-MySQL credentials:
+Password: admin
+## MySQL credentials:
 User:root
 Password:root
 Database name: farmers_market
