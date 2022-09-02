@@ -53,13 +53,14 @@ docker ps
 ```
 192.168.56.107:3000
 ```
-## Credentials
+# Credentials
 ## Grafana credentials:
 - User: admin
 - Password: admin
 ## MySQL credentials:
 - User: root
 - Password: root
+## Database
 - Database name: farmers_market
 
 ## Install docker-compose
