@@ -55,12 +55,12 @@ docker ps
 ```
 ## Credentials
 ## Grafana credentials:
-User: admin\\
-Password: admin\\
+- User: admin
+- Password: admin
 ## MySQL credentials:
-User: root\\
-Password: root\\
-Database name: farmers_market
+- User: root
+- Password: root
+- Database name: farmers_market
 
 ## Install docker-compose
 ```
