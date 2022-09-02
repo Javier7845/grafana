@@ -60,7 +60,7 @@ docker ps
 ## MySQL credentials:
 - User: root
 - Password: root
-## Database
+# Database
 - Database name: farmers_market
 
 ## Install docker-compose
